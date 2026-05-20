@@ -10,7 +10,7 @@ A production-ready, modular **Construction Management Suite** built as a Frappe/
 
 ## Overview
 
-Construction Management Suite (CMS) extends ERPNext with 7 specialized modules covering the full construction project lifecycle — from Bill of Quantities and cost estimation through site operations, progress billing, subcontractor management, and material planning.
+Construction Management Suite (CMS) extends ERPNext with 7 specialized modules covering the full construction project lifecycle from Bill of Quantities and cost estimation through site operations, progress billing, subcontractor management, and material planning.
 
 ---
 
