@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=69.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "construction_management_suite"
+version = "1.0.0"
+description = "Production-ready Construction Management Suite for ERPNext/Frappe"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+{name = "Your Company", email = "[admin@construction.com](mailto:admin@construction.com)"}
+]
+dynamic = ["dependencies"]
+
+[tool.setuptools]
+include-package-data = true
+zip-safe = false
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["*"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
